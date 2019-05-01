@@ -16,7 +16,6 @@ namespace Dictionary_
             multiMap.Add("key1", false);
             multiMap.Add("key2", false);
             
-
             foreach (string key in multiMap.Keys)
             {
                 foreach (bool value in multiMap[key])

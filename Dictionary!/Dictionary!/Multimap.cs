@@ -70,9 +70,7 @@ namespace Dictionary_
 
         public void Add(KeyValuePair<TKey, IEnumerable<TValue>> item)
         {
-            
-            _dictionary.Add(item.Key,item.Value.ToList());
-
+           _dictionary.Add(item.Key,item.Value.ToList());
         }
 
         public void Clear()
